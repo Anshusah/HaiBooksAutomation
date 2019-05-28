@@ -1,0 +1,597 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results skipped="0" failed="0" total="22" passed="22">
+  <reporter-output>
+  </reporter-output>
+  <suite name="Default suite" duration-ms="43452" started-at="2019-05-27T10:13:19Z" finished-at="2019-05-27T10:14:02Z">
+    <groups>
+    </groups>
+    <test name="Default test" duration-ms="43452" started-at="2019-05-27T10:13:19Z" finished-at="2019-05-27T10:14:02Z">
+      <class name="com.hAIbooks.qa.TestPages.TestBusinessOwner">
+        <test-method status="PASS" signature="SetUp()[pri:0, instance:com.hAIbooks.qa.TestPages.TestBusinessOwner@56ac3a89]" name="SetUp" is-config="true" duration-ms="7746" started-at="2019-05-27T15:58:19Z" finished-at="2019-05-27T15:58:26Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- SetUp -->
+        <test-method status="PASS" signature="beforeMethod(java.lang.reflect.Method)[pri:0, instance:com.hAIbooks.qa.TestPages.TestBusinessOwner@56ac3a89]" name="beforeMethod" is-config="true" duration-ms="10" started-at="2019-05-27T15:58:26Z" finished-at="2019-05-27T15:58:26Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[public void com.hAIbooks.qa.TestPages.TestBusinessOwner.ClcikSignUp() throws java.lang.InterruptedException]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- beforeMethod -->
+        <test-method status="PASS" signature="ClcikSignUp()[pri:1, instance:com.hAIbooks.qa.TestPages.TestBusinessOwner@56ac3a89]" name="ClcikSignUp" duration-ms="1178" started-at="2019-05-27T15:58:26Z" finished-at="2019-05-27T15:58:27Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- ClcikSignUp -->
+        <test-method status="PASS" signature="afterMethod(org.testng.ITestResult)[pri:0, instance:com.hAIbooks.qa.TestPages.TestBusinessOwner@56ac3a89]" name="afterMethod" is-config="true" duration-ms="1" started-at="2019-05-27T15:58:27Z" finished-at="2019-05-27T15:58:27Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=ClcikSignUp status=SUCCESS method=TestBusinessOwner.ClcikSignUp()[pri:1, instance:com.hAIbooks.qa.TestPages.TestBusinessOwner@56ac3a89] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- afterMethod -->
+        <test-method status="PASS" signature="beforeMethod(java.lang.reflect.Method)[pri:0, instance:com.hAIbooks.qa.TestPages.TestBusinessOwner@56ac3a89]" name="beforeMethod" is-config="true" duration-ms="1" started-at="2019-05-27T15:58:27Z" finished-at="2019-05-27T15:58:27Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[public void com.hAIbooks.qa.TestPages.TestBusinessOwner.ColorNextButtonTest() throws java.lang.InterruptedException]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- beforeMethod -->
+        <test-method status="PASS" signature="ColorNextButtonTest()[pri:2, instance:com.hAIbooks.qa.TestPages.TestBusinessOwner@56ac3a89]" name="ColorNextButtonTest" duration-ms="10066" started-at="2019-05-27T15:58:27Z" finished-at="2019-05-27T15:58:38Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- ColorNextButtonTest -->
+        <test-method status="PASS" signature="afterMethod(org.testng.ITestResult)[pri:0, instance:com.hAIbooks.qa.TestPages.TestBusinessOwner@56ac3a89]" name="afterMethod" is-config="true" duration-ms="1" started-at="2019-05-27T15:58:38Z" finished-at="2019-05-27T15:58:38Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=ColorNextButtonTest status=SUCCESS method=TestBusinessOwner.ColorNextButtonTest()[pri:2, instance:com.hAIbooks.qa.TestPages.TestBusinessOwner@56ac3a89] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- afterMethod -->
+        <test-method status="PASS" signature="ClcikNextButtonTest()[pri:3, instance:com.hAIbooks.qa.TestPages.TestBusinessOwner@56ac3a89]" name="ClcikNextButtonTest" duration-ms="5092" started-at="2019-05-27T15:58:38Z" finished-at="2019-05-27T15:58:43Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- ClcikNextButtonTest -->
+        <test-method status="PASS" signature="beforeMethod(java.lang.reflect.Method)[pri:0, instance:com.hAIbooks.qa.TestPages.TestBusinessOwner@56ac3a89]" name="beforeMethod" is-config="true" duration-ms="0" started-at="2019-05-27T15:58:38Z" finished-at="2019-05-27T15:58:38Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[public void com.hAIbooks.qa.TestPages.TestBusinessOwner.ClcikNextButtonTest() throws java.lang.Exception]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- beforeMethod -->
+        <test-method status="PASS" signature="afterMethod(org.testng.ITestResult)[pri:0, instance:com.hAIbooks.qa.TestPages.TestBusinessOwner@56ac3a89]" name="afterMethod" is-config="true" duration-ms="1" started-at="2019-05-27T15:58:43Z" finished-at="2019-05-27T15:58:43Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=ClcikNextButtonTest status=SUCCESS method=TestBusinessOwner.ClcikNextButtonTest()[pri:3, instance:com.hAIbooks.qa.TestPages.TestBusinessOwner@56ac3a89] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- afterMethod -->
+        <test-method status="PASS" signature="beforeMethod(java.lang.reflect.Method)[pri:0, instance:com.hAIbooks.qa.TestPages.TestBusinessOwner@56ac3a89]" name="beforeMethod" is-config="true" duration-ms="1" started-at="2019-05-27T15:58:43Z" finished-at="2019-05-27T15:58:43Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[public void com.hAIbooks.qa.TestPages.TestBusinessOwner.ToverifyContentTest() throws java.lang.InterruptedException]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- beforeMethod -->
+        <test-method status="PASS" signature="ToverifyContentTest()[pri:4, instance:com.hAIbooks.qa.TestPages.TestBusinessOwner@56ac3a89]" name="ToverifyContentTest" duration-ms="5057" started-at="2019-05-27T15:58:43Z" finished-at="2019-05-27T15:58:48Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- ToverifyContentTest -->
+        <test-method status="PASS" signature="afterMethod(org.testng.ITestResult)[pri:0, instance:com.hAIbooks.qa.TestPages.TestBusinessOwner@56ac3a89]" name="afterMethod" is-config="true" duration-ms="1" started-at="2019-05-27T15:58:48Z" finished-at="2019-05-27T15:58:48Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=ToverifyContentTest status=SUCCESS method=TestBusinessOwner.ToverifyContentTest()[pri:4, instance:com.hAIbooks.qa.TestPages.TestBusinessOwner@56ac3a89] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- afterMethod -->
+        <test-method status="PASS" signature="beforeMethod(java.lang.reflect.Method)[pri:0, instance:com.hAIbooks.qa.TestPages.TestBusinessOwner@56ac3a89]" name="beforeMethod" is-config="true" duration-ms="1" started-at="2019-05-27T15:58:48Z" finished-at="2019-05-27T15:58:48Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[public void com.hAIbooks.qa.TestPages.TestBusinessOwner.ToverifyTextIsPresentTest()]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- beforeMethod -->
+        <test-method status="PASS" signature="ToverifyTextIsPresentTest()[pri:5, instance:com.hAIbooks.qa.TestPages.TestBusinessOwner@56ac3a89]" name="ToverifyTextIsPresentTest" duration-ms="42" started-at="2019-05-27T15:58:48Z" finished-at="2019-05-27T15:58:48Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- ToverifyTextIsPresentTest -->
+        <test-method status="PASS" signature="afterMethod(org.testng.ITestResult)[pri:0, instance:com.hAIbooks.qa.TestPages.TestBusinessOwner@56ac3a89]" name="afterMethod" is-config="true" duration-ms="1" started-at="2019-05-27T15:58:48Z" finished-at="2019-05-27T15:58:48Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=ToverifyTextIsPresentTest status=SUCCESS method=TestBusinessOwner.ToverifyTextIsPresentTest()[pri:5, instance:com.hAIbooks.qa.TestPages.TestBusinessOwner@56ac3a89] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- afterMethod -->
+        <test-method status="PASS" signature="ClickBusinessOwnerTest()[pri:6, instance:com.hAIbooks.qa.TestPages.TestBusinessOwner@56ac3a89]" name="ClickBusinessOwnerTest" duration-ms="82" started-at="2019-05-27T15:58:48Z" finished-at="2019-05-27T15:58:48Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- ClickBusinessOwnerTest -->
+        <test-method status="PASS" signature="beforeMethod(java.lang.reflect.Method)[pri:0, instance:com.hAIbooks.qa.TestPages.TestBusinessOwner@56ac3a89]" name="beforeMethod" is-config="true" duration-ms="0" started-at="2019-05-27T15:58:48Z" finished-at="2019-05-27T15:58:48Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[public void com.hAIbooks.qa.TestPages.TestBusinessOwner.ClickBusinessOwnerTest()]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- beforeMethod -->
+        <test-method status="PASS" signature="afterMethod(org.testng.ITestResult)[pri:0, instance:com.hAIbooks.qa.TestPages.TestBusinessOwner@56ac3a89]" name="afterMethod" is-config="true" duration-ms="0" started-at="2019-05-27T15:58:48Z" finished-at="2019-05-27T15:58:48Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=ClickBusinessOwnerTest status=SUCCESS method=TestBusinessOwner.ClickBusinessOwnerTest()[pri:6, instance:com.hAIbooks.qa.TestPages.TestBusinessOwner@56ac3a89] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- afterMethod -->
+        <test-method status="PASS" signature="beforeMethod(java.lang.reflect.Method)[pri:0, instance:com.hAIbooks.qa.TestPages.TestBusinessOwner@56ac3a89]" name="beforeMethod" is-config="true" duration-ms="0" started-at="2019-05-27T15:58:48Z" finished-at="2019-05-27T15:58:48Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[public void com.hAIbooks.qa.TestPages.TestBusinessOwner.ToVerifyColorOfNextButtonTest()]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- beforeMethod -->
+        <test-method status="PASS" signature="ToVerifyColorOfNextButtonTest()[pri:7, instance:com.hAIbooks.qa.TestPages.TestBusinessOwner@56ac3a89]" name="ToVerifyColorOfNextButtonTest" duration-ms="38" started-at="2019-05-27T15:58:48Z" finished-at="2019-05-27T15:58:48Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- ToVerifyColorOfNextButtonTest -->
+        <test-method status="PASS" signature="afterMethod(org.testng.ITestResult)[pri:0, instance:com.hAIbooks.qa.TestPages.TestBusinessOwner@56ac3a89]" name="afterMethod" is-config="true" duration-ms="1" started-at="2019-05-27T15:58:48Z" finished-at="2019-05-27T15:58:48Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=ToVerifyColorOfNextButtonTest status=SUCCESS method=TestBusinessOwner.ToVerifyColorOfNextButtonTest()[pri:7, instance:com.hAIbooks.qa.TestPages.TestBusinessOwner@56ac3a89] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- afterMethod -->
+        <test-method status="PASS" signature="beforeMethod(java.lang.reflect.Method)[pri:0, instance:com.hAIbooks.qa.TestPages.TestBusinessOwner@56ac3a89]" name="beforeMethod" is-config="true" duration-ms="0" started-at="2019-05-27T15:58:48Z" finished-at="2019-05-27T15:58:48Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[public void com.hAIbooks.qa.TestPages.TestBusinessOwner.ToReVerifyTextIsPresent() throws java.lang.InterruptedException]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- beforeMethod -->
+        <test-method status="PASS" signature="ToReVerifyTextIsPresent()[pri:8, instance:com.hAIbooks.qa.TestPages.TestBusinessOwner@56ac3a89]" name="ToReVerifyTextIsPresent" duration-ms="5026" started-at="2019-05-27T15:58:48Z" finished-at="2019-05-27T15:58:53Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- ToReVerifyTextIsPresent -->
+        <test-method status="PASS" signature="afterMethod(org.testng.ITestResult)[pri:0, instance:com.hAIbooks.qa.TestPages.TestBusinessOwner@56ac3a89]" name="afterMethod" is-config="true" duration-ms="1" started-at="2019-05-27T15:58:53Z" finished-at="2019-05-27T15:58:53Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=ToReVerifyTextIsPresent status=SUCCESS method=TestBusinessOwner.ToReVerifyTextIsPresent()[pri:8, instance:com.hAIbooks.qa.TestPages.TestBusinessOwner@56ac3a89] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- afterMethod -->
+        <test-method status="PASS" signature="beforeMethod(java.lang.reflect.Method)[pri:0, instance:com.hAIbooks.qa.TestPages.TestBusinessOwner@56ac3a89]" name="beforeMethod" is-config="true" duration-ms="1" started-at="2019-05-27T15:58:53Z" finished-at="2019-05-27T15:58:53Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[public void com.hAIbooks.qa.TestPages.TestBusinessOwner.ReClickNextButtonTest()]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- beforeMethod -->
+        <test-method status="PASS" signature="ReClickNextButtonTest()[pri:9, instance:com.hAIbooks.qa.TestPages.TestBusinessOwner@56ac3a89]" name="ReClickNextButtonTest" duration-ms="87" started-at="2019-05-27T15:58:53Z" finished-at="2019-05-27T15:58:53Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- ReClickNextButtonTest -->
+        <test-method status="PASS" signature="afterMethod(org.testng.ITestResult)[pri:0, instance:com.hAIbooks.qa.TestPages.TestBusinessOwner@56ac3a89]" name="afterMethod" is-config="true" duration-ms="0" started-at="2019-05-27T15:58:53Z" finished-at="2019-05-27T15:58:53Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=ReClickNextButtonTest status=SUCCESS method=TestBusinessOwner.ReClickNextButtonTest()[pri:9, instance:com.hAIbooks.qa.TestPages.TestBusinessOwner@56ac3a89] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- afterMethod -->
+        <test-method status="PASS" signature="beforeMethod(java.lang.reflect.Method)[pri:0, instance:com.hAIbooks.qa.TestPages.TestBusinessOwner@56ac3a89]" name="beforeMethod" is-config="true" duration-ms="0" started-at="2019-05-27T15:58:53Z" finished-at="2019-05-27T15:58:53Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[public void com.hAIbooks.qa.TestPages.TestBusinessOwner.PhoneNumberValidationTest()]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- beforeMethod -->
+        <test-method status="PASS" signature="PhoneNumberValidationTest()[pri:10, instance:com.hAIbooks.qa.TestPages.TestBusinessOwner@56ac3a89]" name="PhoneNumberValidationTest" duration-ms="230" started-at="2019-05-27T15:58:53Z" finished-at="2019-05-27T15:58:53Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- PhoneNumberValidationTest -->
+        <test-method status="PASS" signature="afterMethod(org.testng.ITestResult)[pri:0, instance:com.hAIbooks.qa.TestPages.TestBusinessOwner@56ac3a89]" name="afterMethod" is-config="true" duration-ms="1" started-at="2019-05-27T15:58:53Z" finished-at="2019-05-27T15:58:53Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=PhoneNumberValidationTest status=SUCCESS method=TestBusinessOwner.PhoneNumberValidationTest()[pri:10, instance:com.hAIbooks.qa.TestPages.TestBusinessOwner@56ac3a89] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- afterMethod -->
+        <test-method status="PASS" signature="beforeMethod(java.lang.reflect.Method)[pri:0, instance:com.hAIbooks.qa.TestPages.TestBusinessOwner@56ac3a89]" name="beforeMethod" is-config="true" duration-ms="1" started-at="2019-05-27T15:58:53Z" finished-at="2019-05-27T15:58:53Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[public void com.hAIbooks.qa.TestPages.TestBusinessOwner.MinimumCharacterValidationPassworsTest()]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- beforeMethod -->
+        <test-method status="PASS" signature="MinimumCharacterValidationPassworsTest()[pri:11, instance:com.hAIbooks.qa.TestPages.TestBusinessOwner@56ac3a89]" name="MinimumCharacterValidationPassworsTest" duration-ms="278" started-at="2019-05-27T15:58:53Z" finished-at="2019-05-27T15:58:54Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- MinimumCharacterValidationPassworsTest -->
+        <test-method status="PASS" signature="afterMethod(org.testng.ITestResult)[pri:0, instance:com.hAIbooks.qa.TestPages.TestBusinessOwner@56ac3a89]" name="afterMethod" is-config="true" duration-ms="1" started-at="2019-05-27T15:58:54Z" finished-at="2019-05-27T15:58:54Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=MinimumCharacterValidationPassworsTest status=SUCCESS method=TestBusinessOwner.MinimumCharacterValidationPassworsTest()[pri:11, instance:com.hAIbooks.qa.TestPages.TestBusinessOwner@56ac3a89] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- afterMethod -->
+        <test-method status="PASS" signature="beforeMethod(java.lang.reflect.Method)[pri:0, instance:com.hAIbooks.qa.TestPages.TestBusinessOwner@56ac3a89]" name="beforeMethod" is-config="true" duration-ms="0" started-at="2019-05-27T15:58:54Z" finished-at="2019-05-27T15:58:54Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[public void com.hAIbooks.qa.TestPages.TestBusinessOwner.MaximumCharacterValidationPaaswordTest()]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- beforeMethod -->
+        <test-method status="PASS" signature="MaximumCharacterValidationPaaswordTest()[pri:12, instance:com.hAIbooks.qa.TestPages.TestBusinessOwner@56ac3a89]" name="MaximumCharacterValidationPaaswordTest" duration-ms="968" started-at="2019-05-27T15:58:54Z" finished-at="2019-05-27T15:58:54Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- MaximumCharacterValidationPaaswordTest -->
+        <test-method status="PASS" signature="afterMethod(org.testng.ITestResult)[pri:0, instance:com.hAIbooks.qa.TestPages.TestBusinessOwner@56ac3a89]" name="afterMethod" is-config="true" duration-ms="1" started-at="2019-05-27T15:58:54Z" finished-at="2019-05-27T15:58:54Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=MaximumCharacterValidationPaaswordTest status=SUCCESS method=TestBusinessOwner.MaximumCharacterValidationPaaswordTest()[pri:12, instance:com.hAIbooks.qa.TestPages.TestBusinessOwner@56ac3a89] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- afterMethod -->
+        <test-method status="PASS" signature="CharacterLimitationFirstNameTest()[pri:13, instance:com.hAIbooks.qa.TestPages.TestBusinessOwner@56ac3a89]" name="CharacterLimitationFirstNameTest" duration-ms="443" started-at="2019-05-27T15:58:54Z" finished-at="2019-05-27T15:58:55Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- CharacterLimitationFirstNameTest -->
+        <test-method status="PASS" signature="beforeMethod(java.lang.reflect.Method)[pri:0, instance:com.hAIbooks.qa.TestPages.TestBusinessOwner@56ac3a89]" name="beforeMethod" is-config="true" duration-ms="0" started-at="2019-05-27T15:58:54Z" finished-at="2019-05-27T15:58:54Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[public void com.hAIbooks.qa.TestPages.TestBusinessOwner.CharacterLimitationFirstNameTest()]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- beforeMethod -->
+        <test-method status="PASS" signature="afterMethod(org.testng.ITestResult)[pri:0, instance:com.hAIbooks.qa.TestPages.TestBusinessOwner@56ac3a89]" name="afterMethod" is-config="true" duration-ms="0" started-at="2019-05-27T15:58:55Z" finished-at="2019-05-27T15:58:55Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=CharacterLimitationFirstNameTest status=SUCCESS method=TestBusinessOwner.CharacterLimitationFirstNameTest()[pri:13, instance:com.hAIbooks.qa.TestPages.TestBusinessOwner@56ac3a89] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- afterMethod -->
+        <test-method status="PASS" signature="CharacterLimitationLastNameTest()[pri:14, instance:com.hAIbooks.qa.TestPages.TestBusinessOwner@56ac3a89]" name="CharacterLimitationLastNameTest" duration-ms="351" started-at="2019-05-27T15:58:55Z" finished-at="2019-05-27T15:58:55Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- CharacterLimitationLastNameTest -->
+        <test-method status="PASS" signature="beforeMethod(java.lang.reflect.Method)[pri:0, instance:com.hAIbooks.qa.TestPages.TestBusinessOwner@56ac3a89]" name="beforeMethod" is-config="true" duration-ms="0" started-at="2019-05-27T15:58:55Z" finished-at="2019-05-27T15:58:55Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[public void com.hAIbooks.qa.TestPages.TestBusinessOwner.CharacterLimitationLastNameTest()]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- beforeMethod -->
+        <test-method status="PASS" signature="afterMethod(org.testng.ITestResult)[pri:0, instance:com.hAIbooks.qa.TestPages.TestBusinessOwner@56ac3a89]" name="afterMethod" is-config="true" duration-ms="1" started-at="2019-05-27T15:58:55Z" finished-at="2019-05-27T15:58:55Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=CharacterLimitationLastNameTest status=SUCCESS method=TestBusinessOwner.CharacterLimitationLastNameTest()[pri:14, instance:com.hAIbooks.qa.TestPages.TestBusinessOwner@56ac3a89] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- afterMethod -->
+        <test-method status="PASS" signature="ClearSignUpPageTest()[pri:15, instance:com.hAIbooks.qa.TestPages.TestBusinessOwner@56ac3a89]" name="ClearSignUpPageTest" duration-ms="5196" started-at="2019-05-27T15:58:55Z" finished-at="2019-05-27T15:59:00Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- ClearSignUpPageTest -->
+        <test-method status="PASS" signature="beforeMethod(java.lang.reflect.Method)[pri:0, instance:com.hAIbooks.qa.TestPages.TestBusinessOwner@56ac3a89]" name="beforeMethod" is-config="true" duration-ms="0" started-at="2019-05-27T15:58:55Z" finished-at="2019-05-27T15:58:55Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[public void com.hAIbooks.qa.TestPages.TestBusinessOwner.ClearSignUpPageTest() throws java.lang.InterruptedException]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- beforeMethod -->
+        <test-method status="PASS" signature="afterMethod(org.testng.ITestResult)[pri:0, instance:com.hAIbooks.qa.TestPages.TestBusinessOwner@56ac3a89]" name="afterMethod" is-config="true" duration-ms="1" started-at="2019-05-27T15:59:00Z" finished-at="2019-05-27T15:59:00Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=ClearSignUpPageTest status=SUCCESS method=TestBusinessOwner.ClearSignUpPageTest()[pri:15, instance:com.hAIbooks.qa.TestPages.TestBusinessOwner@56ac3a89] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- afterMethod -->
+        <test-method status="PASS" signature="beforeMethod(java.lang.reflect.Method)[pri:0, instance:com.hAIbooks.qa.TestPages.TestBusinessOwner@56ac3a89]" name="beforeMethod" is-config="true" duration-ms="1" started-at="2019-05-27T15:59:00Z" finished-at="2019-05-27T15:59:00Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[public void com.hAIbooks.qa.TestPages.TestBusinessOwner.ClickGetStartedTest()]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- beforeMethod -->
+        <test-method status="PASS" signature="ClickGetStartedTest()[pri:16, instance:com.hAIbooks.qa.TestPages.TestBusinessOwner@56ac3a89]" name="ClickGetStartedTest" duration-ms="80" started-at="2019-05-27T15:59:00Z" finished-at="2019-05-27T15:59:01Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- ClickGetStartedTest -->
+        <test-method status="PASS" signature="afterMethod(org.testng.ITestResult)[pri:0, instance:com.hAIbooks.qa.TestPages.TestBusinessOwner@56ac3a89]" name="afterMethod" is-config="true" duration-ms="0" started-at="2019-05-27T15:59:01Z" finished-at="2019-05-27T15:59:01Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=ClickGetStartedTest status=SUCCESS method=TestBusinessOwner.ClickGetStartedTest()[pri:16, instance:com.hAIbooks.qa.TestPages.TestBusinessOwner@56ac3a89] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- afterMethod -->
+        <test-method status="PASS" signature="beforeMethod(java.lang.reflect.Method)[pri:0, instance:com.hAIbooks.qa.TestPages.TestBusinessOwner@56ac3a89]" name="beforeMethod" is-config="true" duration-ms="0" started-at="2019-05-27T15:59:01Z" finished-at="2019-05-27T15:59:01Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[public void com.hAIbooks.qa.TestPages.TestBusinessOwner.ErrorMessageFirstNameTest()]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- beforeMethod -->
+        <test-method status="PASS" signature="ErrorMessageFirstNameTest()[pri:17, instance:com.hAIbooks.qa.TestPages.TestBusinessOwner@56ac3a89]" name="ErrorMessageFirstNameTest" duration-ms="59" started-at="2019-05-27T15:59:01Z" finished-at="2019-05-27T15:59:01Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- ErrorMessageFirstNameTest -->
+        <test-method status="PASS" signature="beforeMethod(java.lang.reflect.Method)[pri:0, instance:com.hAIbooks.qa.TestPages.TestBusinessOwner@56ac3a89]" name="beforeMethod" is-config="true" duration-ms="1" started-at="2019-05-27T15:59:01Z" finished-at="2019-05-27T15:59:01Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[public void com.hAIbooks.qa.TestPages.TestBusinessOwner.ErrorMessageLastNameTest()]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- beforeMethod -->
+        <test-method status="PASS" signature="afterMethod(org.testng.ITestResult)[pri:0, instance:com.hAIbooks.qa.TestPages.TestBusinessOwner@56ac3a89]" name="afterMethod" is-config="true" duration-ms="0" started-at="2019-05-27T15:59:01Z" finished-at="2019-05-27T15:59:01Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=ErrorMessageFirstNameTest status=SUCCESS method=TestBusinessOwner.ErrorMessageFirstNameTest()[pri:17, instance:com.hAIbooks.qa.TestPages.TestBusinessOwner@56ac3a89] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- afterMethod -->
+        <test-method status="PASS" signature="ErrorMessageLastNameTest()[pri:18, instance:com.hAIbooks.qa.TestPages.TestBusinessOwner@56ac3a89]" name="ErrorMessageLastNameTest" duration-ms="44" started-at="2019-05-27T15:59:01Z" finished-at="2019-05-27T15:59:01Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- ErrorMessageLastNameTest -->
+        <test-method status="PASS" signature="beforeMethod(java.lang.reflect.Method)[pri:0, instance:com.hAIbooks.qa.TestPages.TestBusinessOwner@56ac3a89]" name="beforeMethod" is-config="true" duration-ms="1" started-at="2019-05-27T15:59:01Z" finished-at="2019-05-27T15:59:01Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[public void com.hAIbooks.qa.TestPages.TestBusinessOwner.ErrorMessageEmailIDTest()]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- beforeMethod -->
+        <test-method status="PASS" signature="afterMethod(org.testng.ITestResult)[pri:0, instance:com.hAIbooks.qa.TestPages.TestBusinessOwner@56ac3a89]" name="afterMethod" is-config="true" duration-ms="0" started-at="2019-05-27T15:59:01Z" finished-at="2019-05-27T15:59:01Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=ErrorMessageLastNameTest status=SUCCESS method=TestBusinessOwner.ErrorMessageLastNameTest()[pri:18, instance:com.hAIbooks.qa.TestPages.TestBusinessOwner@56ac3a89] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- afterMethod -->
+        <test-method status="PASS" signature="ErrorMessageEmailIDTest()[pri:19, instance:com.hAIbooks.qa.TestPages.TestBusinessOwner@56ac3a89]" name="ErrorMessageEmailIDTest" duration-ms="39" started-at="2019-05-27T15:59:01Z" finished-at="2019-05-27T15:59:01Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- ErrorMessageEmailIDTest -->
+        <test-method status="PASS" signature="beforeMethod(java.lang.reflect.Method)[pri:0, instance:com.hAIbooks.qa.TestPages.TestBusinessOwner@56ac3a89]" name="beforeMethod" is-config="true" duration-ms="1" started-at="2019-05-27T15:59:01Z" finished-at="2019-05-27T15:59:01Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[public void com.hAIbooks.qa.TestPages.TestBusinessOwner.ErrorMessagePhoneNumTest()]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- beforeMethod -->
+        <test-method status="PASS" signature="afterMethod(org.testng.ITestResult)[pri:0, instance:com.hAIbooks.qa.TestPages.TestBusinessOwner@56ac3a89]" name="afterMethod" is-config="true" duration-ms="0" started-at="2019-05-27T15:59:01Z" finished-at="2019-05-27T15:59:01Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=ErrorMessageEmailIDTest status=SUCCESS method=TestBusinessOwner.ErrorMessageEmailIDTest()[pri:19, instance:com.hAIbooks.qa.TestPages.TestBusinessOwner@56ac3a89] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- afterMethod -->
+        <test-method status="PASS" signature="ErrorMessagePhoneNumTest()[pri:20, instance:com.hAIbooks.qa.TestPages.TestBusinessOwner@56ac3a89]" name="ErrorMessagePhoneNumTest" duration-ms="51" started-at="2019-05-27T15:59:01Z" finished-at="2019-05-27T15:59:01Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- ErrorMessagePhoneNumTest -->
+        <test-method status="PASS" signature="afterMethod(org.testng.ITestResult)[pri:0, instance:com.hAIbooks.qa.TestPages.TestBusinessOwner@56ac3a89]" name="afterMethod" is-config="true" duration-ms="1" started-at="2019-05-27T15:59:01Z" finished-at="2019-05-27T15:59:01Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=ErrorMessagePhoneNumTest status=SUCCESS method=TestBusinessOwner.ErrorMessagePhoneNumTest()[pri:20, instance:com.hAIbooks.qa.TestPages.TestBusinessOwner@56ac3a89] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- afterMethod -->
+        <test-method status="PASS" signature="beforeMethod(java.lang.reflect.Method)[pri:0, instance:com.hAIbooks.qa.TestPages.TestBusinessOwner@56ac3a89]" name="beforeMethod" is-config="true" duration-ms="1" started-at="2019-05-27T15:59:01Z" finished-at="2019-05-27T15:59:01Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[public void com.hAIbooks.qa.TestPages.TestBusinessOwner.ErrorCreatePasswordTest()]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- beforeMethod -->
+        <test-method status="PASS" signature="ErrorCreatePasswordTest()[pri:21, instance:com.hAIbooks.qa.TestPages.TestBusinessOwner@56ac3a89]" name="ErrorCreatePasswordTest" duration-ms="34" started-at="2019-05-27T15:59:01Z" finished-at="2019-05-27T15:59:01Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- ErrorCreatePasswordTest -->
+        <test-method status="PASS" signature="beforeMethod(java.lang.reflect.Method)[pri:0, instance:com.hAIbooks.qa.TestPages.TestBusinessOwner@56ac3a89]" name="beforeMethod" is-config="true" duration-ms="1" started-at="2019-05-27T15:59:01Z" finished-at="2019-05-27T15:59:01Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[public void com.hAIbooks.qa.TestPages.TestBusinessOwner.ErrorConfirmPasswordTest()]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- beforeMethod -->
+        <test-method status="PASS" signature="afterMethod(org.testng.ITestResult)[pri:0, instance:com.hAIbooks.qa.TestPages.TestBusinessOwner@56ac3a89]" name="afterMethod" is-config="true" duration-ms="0" started-at="2019-05-27T15:59:01Z" finished-at="2019-05-27T15:59:01Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=ErrorCreatePasswordTest status=SUCCESS method=TestBusinessOwner.ErrorCreatePasswordTest()[pri:21, instance:com.hAIbooks.qa.TestPages.TestBusinessOwner@56ac3a89] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- afterMethod -->
+        <test-method status="PASS" signature="ErrorConfirmPasswordTest()[pri:22, instance:com.hAIbooks.qa.TestPages.TestBusinessOwner@56ac3a89]" name="ErrorConfirmPasswordTest" duration-ms="56" started-at="2019-05-27T15:59:01Z" finished-at="2019-05-27T15:59:01Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- ErrorConfirmPasswordTest -->
+        <test-method status="PASS" signature="afterMethod(org.testng.ITestResult)[pri:0, instance:com.hAIbooks.qa.TestPages.TestBusinessOwner@56ac3a89]" name="afterMethod" is-config="true" duration-ms="1" started-at="2019-05-27T15:59:01Z" finished-at="2019-05-27T15:59:01Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=ErrorConfirmPasswordTest status=SUCCESS method=TestBusinessOwner.ErrorConfirmPasswordTest()[pri:22, instance:com.hAIbooks.qa.TestPages.TestBusinessOwner@56ac3a89] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- afterMethod -->
+        <test-method status="PASS" signature="TearDown()[pri:0, instance:com.hAIbooks.qa.TestPages.TestBusinessOwner@56ac3a89]" name="TearDown" is-config="true" duration-ms="788" started-at="2019-05-27T15:59:01Z" finished-at="2019-05-27T15:59:02Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- TearDown -->
+        <test-method status="PASS" signature="endTest()[pri:0, instance:com.hAIbooks.qa.TestPages.TestBusinessOwner@56ac3a89]" name="endTest" is-config="true" duration-ms="348" started-at="2019-05-27T15:59:02Z" finished-at="2019-05-27T15:59:02Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- endTest -->
+      </class> <!-- com.hAIbooks.qa.TestPages.TestBusinessOwner -->
+    </test> <!-- Default test -->
+  </suite> <!-- Default suite -->
+</testng-results>

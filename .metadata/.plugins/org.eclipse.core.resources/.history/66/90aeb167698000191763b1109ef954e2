@@ -1,0 +1,12 @@
+<!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd" >
+  
+<suite name="AdvisorSuite" verbose="1" >
+  <test name="AdvisorTests" >
+    <classes>
+       <class name="com.hAIbooks.qa.TestPages.TestBusinessAdvisor" />
+       <class name="com.hAIbooks.qa.TestPages.TestRegBusinessAdvisor"/>
+       <class name="com.hAIbooks.qa.TestPages.TestLoginPage"/>
+       <class name="com.hAIbooks.qa.TestPages.TestForgotPassword"/>
+    </classes>
+  </test>
+</suite>

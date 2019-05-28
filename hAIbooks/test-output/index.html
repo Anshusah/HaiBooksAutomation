@@ -1,0 +1,840 @@
+<!DOCTYPE html>
+
+<html>
+  <head>
+  <meta charset='utf-8'>
+  <title>TestNG reports</title>
+
+    <link type="text/css" href="testng-reports.css" rel="stylesheet" />  
+    <script type="text/javascript" src="jquery-1.7.1.min.js"></script>
+    <script type="text/javascript" src="testng-reports.js"></script>
+    <script type="text/javascript" src="https://www.google.com/jsapi"></script>
+    <script type='text/javascript'>
+      google.load('visualization', '1', {packages:['table']});
+      google.setOnLoadCallback(drawTable);
+      var suiteTableInitFunctions = new Array();
+      var suiteTableData = new Array();
+    </script>
+    <!--
+      <script type="text/javascript" src="jquery-ui/js/jquery-ui-1.8.16.custom.min.js"></script>
+     -->
+  </head>
+
+  <body>
+    <div class="top-banner-root">
+      <span class="top-banner-title-font">Test results</span>
+      <br/>
+      <span class="top-banner-font-1">1 suite</span>
+    </div> <!-- top-banner-root -->
+    <div class="navigator-root">
+      <div class="navigator-suite-header">
+        <span>All suites</span>
+        <a href="#" class="collapse-all-link" title="Collapse/expand all the suites">
+          <img class="collapse-all-icon" src="collapseall.gif">
+          </img> <!-- collapse-all-icon -->
+        </a> <!-- collapse-all-link -->
+      </div> <!-- navigator-suite-header -->
+      <div class="suite">
+        <div class="rounded-window">
+          <div class="suite-header light-rounded-window-top">
+            <a href="#" class="navigator-link" panel-name="suite-Default_suite">
+              <span class="suite-name border-passed">Default suite</span>
+            </a> <!-- navigator-link -->
+          </div> <!-- suite-header light-rounded-window-top -->
+          <div class="navigator-suite-content">
+            <div class="suite-section-title">
+              <span>Info</span>
+            </div> <!-- suite-section-title -->
+            <div class="suite-section-content">
+              <ul>
+                <li>
+                  <a href="#" class="navigator-link " panel-name="test-xml-Default_suite">
+                    <span>C:\Users\DELL\AppData\Local\Temp\testng-eclipse--453363511\testng-customsuite.xml</span>
+                  </a> <!-- navigator-link  -->
+                </li>
+                <li>
+                  <a href="#" class="navigator-link " panel-name="testlist-Default_suite">
+                    <span class="test-stats">1 test</span>
+                  </a> <!-- navigator-link  -->
+                </li>
+                <li>
+                  <a href="#" class="navigator-link " panel-name="group-Default_suite">
+                    <span>0 groups</span>
+                  </a> <!-- navigator-link  -->
+                </li>
+                <li>
+                  <a href="#" class="navigator-link " panel-name="times-Default_suite">
+                    <span>Times</span>
+                  </a> <!-- navigator-link  -->
+                </li>
+                <li>
+                  <a href="#" class="navigator-link " panel-name="reporter-Default_suite">
+                    <span>Reporter output</span>
+                  </a> <!-- navigator-link  -->
+                </li>
+                <li>
+                  <a href="#" class="navigator-link " panel-name="ignored-methods-Default_suite">
+                    <span>Ignored methods</span>
+                  </a> <!-- navigator-link  -->
+                </li>
+                <li>
+                  <a href="#" class="navigator-link " panel-name="chronological-Default_suite">
+                    <span>Chronological view</span>
+                  </a> <!-- navigator-link  -->
+                </li>
+              </ul>
+            </div> <!-- suite-section-content -->
+            <div class="result-section">
+              <div class="suite-section-title">
+                <span>Results</span>
+              </div> <!-- suite-section-title -->
+              <div class="suite-section-content">
+                <ul>
+                  <li>
+                    <span class="method-stats">22 methods,   22 passed</span>
+                  </li>
+                  <li>
+                    <span class="method-list-title passed">Passed methods</span>
+                    <span class="show-or-hide-methods passed">
+                      <a href="#" panel-name="suite-Default_suite" class="hide-methods passed suite-Default_suite"> (hide)</a> <!-- hide-methods passed suite-Default_suite -->
+                      <a href="#" panel-name="suite-Default_suite" class="show-methods passed suite-Default_suite"> (show)</a> <!-- show-methods passed suite-Default_suite -->
+                    </span>
+                    <div class="method-list-content passed suite-Default_suite">
+                      <span>
+                        <img width="3%" src="passed.png"/>
+                        <a href="#" class="method navigator-link" panel-name="suite-Default_suite" title="com.hAIbooks.qa.TestPages.TestBusinessOwner" hash-for-method="CharacterLimitationFirstNameTest">CharacterLimitationFirstNameTest</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img width="3%" src="passed.png"/>
+                        <a href="#" class="method navigator-link" panel-name="suite-Default_suite" title="com.hAIbooks.qa.TestPages.TestBusinessOwner" hash-for-method="CharacterLimitationLastNameTest">CharacterLimitationLastNameTest</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img width="3%" src="passed.png"/>
+                        <a href="#" class="method navigator-link" panel-name="suite-Default_suite" title="com.hAIbooks.qa.TestPages.TestBusinessOwner" hash-for-method="ClcikNextButtonTest">ClcikNextButtonTest</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img width="3%" src="passed.png"/>
+                        <a href="#" class="method navigator-link" panel-name="suite-Default_suite" title="com.hAIbooks.qa.TestPages.TestBusinessOwner" hash-for-method="ClcikSignUp">ClcikSignUp</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img width="3%" src="passed.png"/>
+                        <a href="#" class="method navigator-link" panel-name="suite-Default_suite" title="com.hAIbooks.qa.TestPages.TestBusinessOwner" hash-for-method="ClearSignUpPageTest">ClearSignUpPageTest</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img width="3%" src="passed.png"/>
+                        <a href="#" class="method navigator-link" panel-name="suite-Default_suite" title="com.hAIbooks.qa.TestPages.TestBusinessOwner" hash-for-method="ClickBusinessOwnerTest">ClickBusinessOwnerTest</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img width="3%" src="passed.png"/>
+                        <a href="#" class="method navigator-link" panel-name="suite-Default_suite" title="com.hAIbooks.qa.TestPages.TestBusinessOwner" hash-for-method="ClickGetStartedTest">ClickGetStartedTest</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img width="3%" src="passed.png"/>
+                        <a href="#" class="method navigator-link" panel-name="suite-Default_suite" title="com.hAIbooks.qa.TestPages.TestBusinessOwner" hash-for-method="ColorNextButtonTest">ColorNextButtonTest</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img width="3%" src="passed.png"/>
+                        <a href="#" class="method navigator-link" panel-name="suite-Default_suite" title="com.hAIbooks.qa.TestPages.TestBusinessOwner" hash-for-method="ErrorConfirmPasswordTest">ErrorConfirmPasswordTest</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img width="3%" src="passed.png"/>
+                        <a href="#" class="method navigator-link" panel-name="suite-Default_suite" title="com.hAIbooks.qa.TestPages.TestBusinessOwner" hash-for-method="ErrorCreatePasswordTest">ErrorCreatePasswordTest</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img width="3%" src="passed.png"/>
+                        <a href="#" class="method navigator-link" panel-name="suite-Default_suite" title="com.hAIbooks.qa.TestPages.TestBusinessOwner" hash-for-method="ErrorMessageEmailIDTest">ErrorMessageEmailIDTest</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img width="3%" src="passed.png"/>
+                        <a href="#" class="method navigator-link" panel-name="suite-Default_suite" title="com.hAIbooks.qa.TestPages.TestBusinessOwner" hash-for-method="ErrorMessageFirstNameTest">ErrorMessageFirstNameTest</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img width="3%" src="passed.png"/>
+                        <a href="#" class="method navigator-link" panel-name="suite-Default_suite" title="com.hAIbooks.qa.TestPages.TestBusinessOwner" hash-for-method="ErrorMessageLastNameTest">ErrorMessageLastNameTest</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img width="3%" src="passed.png"/>
+                        <a href="#" class="method navigator-link" panel-name="suite-Default_suite" title="com.hAIbooks.qa.TestPages.TestBusinessOwner" hash-for-method="ErrorMessagePhoneNumTest">ErrorMessagePhoneNumTest</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img width="3%" src="passed.png"/>
+                        <a href="#" class="method navigator-link" panel-name="suite-Default_suite" title="com.hAIbooks.qa.TestPages.TestBusinessOwner" hash-for-method="MaximumCharacterValidationPaaswordTest">MaximumCharacterValidationPaaswordTest</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img width="3%" src="passed.png"/>
+                        <a href="#" class="method navigator-link" panel-name="suite-Default_suite" title="com.hAIbooks.qa.TestPages.TestBusinessOwner" hash-for-method="MinimumCharacterValidationPassworsTest">MinimumCharacterValidationPassworsTest</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img width="3%" src="passed.png"/>
+                        <a href="#" class="method navigator-link" panel-name="suite-Default_suite" title="com.hAIbooks.qa.TestPages.TestBusinessOwner" hash-for-method="PhoneNumberValidationTest">PhoneNumberValidationTest</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img width="3%" src="passed.png"/>
+                        <a href="#" class="method navigator-link" panel-name="suite-Default_suite" title="com.hAIbooks.qa.TestPages.TestBusinessOwner" hash-for-method="ReClickNextButtonTest">ReClickNextButtonTest</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img width="3%" src="passed.png"/>
+                        <a href="#" class="method navigator-link" panel-name="suite-Default_suite" title="com.hAIbooks.qa.TestPages.TestBusinessOwner" hash-for-method="ToReVerifyTextIsPresent">ToReVerifyTextIsPresent</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img width="3%" src="passed.png"/>
+                        <a href="#" class="method navigator-link" panel-name="suite-Default_suite" title="com.hAIbooks.qa.TestPages.TestBusinessOwner" hash-for-method="ToVerifyColorOfNextButtonTest">ToVerifyColorOfNextButtonTest</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img width="3%" src="passed.png"/>
+                        <a href="#" class="method navigator-link" panel-name="suite-Default_suite" title="com.hAIbooks.qa.TestPages.TestBusinessOwner" hash-for-method="ToverifyContentTest">ToverifyContentTest</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img width="3%" src="passed.png"/>
+                        <a href="#" class="method navigator-link" panel-name="suite-Default_suite" title="com.hAIbooks.qa.TestPages.TestBusinessOwner" hash-for-method="ToverifyTextIsPresentTest">ToverifyTextIsPresentTest</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                    </div> <!-- method-list-content passed suite-Default_suite -->
+                  </li>
+                </ul>
+              </div> <!-- suite-section-content -->
+            </div> <!-- result-section -->
+          </div> <!-- navigator-suite-content -->
+        </div> <!-- rounded-window -->
+      </div> <!-- suite -->
+    </div> <!-- navigator-root -->
+    <div class="wrapper">
+      <div class="main-panel-root">
+        <div panel-name="suite-Default_suite" class="panel Default_suite">
+          <div class="suite-Default_suite-class-passed">
+            <div class="main-panel-header rounded-window-top">
+              <img src="passed.png"/>
+              <span class="class-name">com.hAIbooks.qa.TestPages.TestBusinessOwner</span>
+            </div> <!-- main-panel-header rounded-window-top -->
+            <div class="main-panel-content rounded-window-bottom">
+              <div class="method">
+                <div class="method-content">
+                  <a name="CharacterLimitationFirstNameTest">
+                  </a> <!-- CharacterLimitationFirstNameTest -->
+                  <span class="method-name">CharacterLimitationFirstNameTest</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="CharacterLimitationLastNameTest">
+                  </a> <!-- CharacterLimitationLastNameTest -->
+                  <span class="method-name">CharacterLimitationLastNameTest</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="ClcikNextButtonTest">
+                  </a> <!-- ClcikNextButtonTest -->
+                  <span class="method-name">ClcikNextButtonTest</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="ClcikSignUp">
+                  </a> <!-- ClcikSignUp -->
+                  <span class="method-name">ClcikSignUp</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="ClearSignUpPageTest">
+                  </a> <!-- ClearSignUpPageTest -->
+                  <span class="method-name">ClearSignUpPageTest</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="ClickBusinessOwnerTest">
+                  </a> <!-- ClickBusinessOwnerTest -->
+                  <span class="method-name">ClickBusinessOwnerTest</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="ClickGetStartedTest">
+                  </a> <!-- ClickGetStartedTest -->
+                  <span class="method-name">ClickGetStartedTest</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="ColorNextButtonTest">
+                  </a> <!-- ColorNextButtonTest -->
+                  <span class="method-name">ColorNextButtonTest</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="ErrorConfirmPasswordTest">
+                  </a> <!-- ErrorConfirmPasswordTest -->
+                  <span class="method-name">ErrorConfirmPasswordTest</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="ErrorCreatePasswordTest">
+                  </a> <!-- ErrorCreatePasswordTest -->
+                  <span class="method-name">ErrorCreatePasswordTest</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="ErrorMessageEmailIDTest">
+                  </a> <!-- ErrorMessageEmailIDTest -->
+                  <span class="method-name">ErrorMessageEmailIDTest</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="ErrorMessageFirstNameTest">
+                  </a> <!-- ErrorMessageFirstNameTest -->
+                  <span class="method-name">ErrorMessageFirstNameTest</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="ErrorMessageLastNameTest">
+                  </a> <!-- ErrorMessageLastNameTest -->
+                  <span class="method-name">ErrorMessageLastNameTest</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="ErrorMessagePhoneNumTest">
+                  </a> <!-- ErrorMessagePhoneNumTest -->
+                  <span class="method-name">ErrorMessagePhoneNumTest</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="MaximumCharacterValidationPaaswordTest">
+                  </a> <!-- MaximumCharacterValidationPaaswordTest -->
+                  <span class="method-name">MaximumCharacterValidationPaaswordTest</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="MinimumCharacterValidationPassworsTest">
+                  </a> <!-- MinimumCharacterValidationPassworsTest -->
+                  <span class="method-name">MinimumCharacterValidationPassworsTest</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="PhoneNumberValidationTest">
+                  </a> <!-- PhoneNumberValidationTest -->
+                  <span class="method-name">PhoneNumberValidationTest</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="ReClickNextButtonTest">
+                  </a> <!-- ReClickNextButtonTest -->
+                  <span class="method-name">ReClickNextButtonTest</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="ToReVerifyTextIsPresent">
+                  </a> <!-- ToReVerifyTextIsPresent -->
+                  <span class="method-name">ToReVerifyTextIsPresent</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="ToVerifyColorOfNextButtonTest">
+                  </a> <!-- ToVerifyColorOfNextButtonTest -->
+                  <span class="method-name">ToVerifyColorOfNextButtonTest</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="ToverifyContentTest">
+                  </a> <!-- ToverifyContentTest -->
+                  <span class="method-name">ToverifyContentTest</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="ToverifyTextIsPresentTest">
+                  </a> <!-- ToverifyTextIsPresentTest -->
+                  <span class="method-name">ToverifyTextIsPresentTest</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+            </div> <!-- main-panel-content rounded-window-bottom -->
+          </div> <!-- suite-Default_suite-class-passed -->
+        </div> <!-- panel Default_suite -->
+        <div panel-name="test-xml-Default_suite" class="panel">
+          <div class="main-panel-header rounded-window-top">
+            <span class="header-content">C:\Users\DELL\AppData\Local\Temp\testng-eclipse--453363511\testng-customsuite.xml</span>
+          </div> <!-- main-panel-header rounded-window-top -->
+          <div class="main-panel-content rounded-window-bottom">
+            <pre>
+&lt;?xml version=&quot;1.0&quot; encoding=&quot;UTF-8&quot;?&gt;
+&lt;!DOCTYPE suite SYSTEM &quot;http://testng.org/testng-1.0.dtd&quot;&gt;
+&lt;suite guice-stage=&quot;DEVELOPMENT&quot; name=&quot;Default suite&quot;&gt;
+  &lt;test verbose=&quot;2&quot; name=&quot;Default test&quot;&gt;
+    &lt;classes&gt;
+      &lt;class name=&quot;com.hAIbooks.qa.TestPages.TestBusinessOwner&quot;/&gt;
+    &lt;/classes&gt;
+  &lt;/test&gt; &lt;!-- Default test --&gt;
+&lt;/suite&gt; &lt;!-- Default suite --&gt;
+            </pre>
+          </div> <!-- main-panel-content rounded-window-bottom -->
+        </div> <!-- panel -->
+        <div panel-name="testlist-Default_suite" class="panel">
+          <div class="main-panel-header rounded-window-top">
+            <span class="header-content">Tests for Default suite</span>
+          </div> <!-- main-panel-header rounded-window-top -->
+          <div class="main-panel-content rounded-window-bottom">
+            <ul>
+              <li>
+                <span class="test-name">Default test (1 class)</span>
+              </li>
+            </ul>
+          </div> <!-- main-panel-content rounded-window-bottom -->
+        </div> <!-- panel -->
+        <div panel-name="group-Default_suite" class="panel">
+          <div class="main-panel-header rounded-window-top">
+            <span class="header-content">Groups for Default suite</span>
+          </div> <!-- main-panel-header rounded-window-top -->
+          <div class="main-panel-content rounded-window-bottom">
+          </div> <!-- main-panel-content rounded-window-bottom -->
+        </div> <!-- panel -->
+        <div panel-name="times-Default_suite" class="panel">
+          <div class="main-panel-header rounded-window-top">
+            <span class="header-content">Times for Default suite</span>
+          </div> <!-- main-panel-header rounded-window-top -->
+          <div class="main-panel-content rounded-window-bottom">
+            <div class="times-div">
+              <script type="text/javascript">
+suiteTableInitFunctions.push('tableData_Default_suite');
+function tableData_Default_suite() {
+var data = new google.visualization.DataTable();
+data.addColumn('number', 'Number');
+data.addColumn('string', 'Method');
+data.addColumn('string', 'Class');
+data.addColumn('number', 'Time (ms)');
+data.addRows(22);
+data.setCell(0, 0, 0)
+data.setCell(0, 1, 'ColorNextButtonTest')
+data.setCell(0, 2, 'com.hAIbooks.qa.TestPages.TestBusinessOwner')
+data.setCell(0, 3, 10066);
+data.setCell(1, 0, 1)
+data.setCell(1, 1, 'ClearSignUpPageTest')
+data.setCell(1, 2, 'com.hAIbooks.qa.TestPages.TestBusinessOwner')
+data.setCell(1, 3, 5196);
+data.setCell(2, 0, 2)
+data.setCell(2, 1, 'ClcikNextButtonTest')
+data.setCell(2, 2, 'com.hAIbooks.qa.TestPages.TestBusinessOwner')
+data.setCell(2, 3, 5092);
+data.setCell(3, 0, 3)
+data.setCell(3, 1, 'ToverifyContentTest')
+data.setCell(3, 2, 'com.hAIbooks.qa.TestPages.TestBusinessOwner')
+data.setCell(3, 3, 5057);
+data.setCell(4, 0, 4)
+data.setCell(4, 1, 'ToReVerifyTextIsPresent')
+data.setCell(4, 2, 'com.hAIbooks.qa.TestPages.TestBusinessOwner')
+data.setCell(4, 3, 5026);
+data.setCell(5, 0, 5)
+data.setCell(5, 1, 'ClcikSignUp')
+data.setCell(5, 2, 'com.hAIbooks.qa.TestPages.TestBusinessOwner')
+data.setCell(5, 3, 1178);
+data.setCell(6, 0, 6)
+data.setCell(6, 1, 'MaximumCharacterValidationPaaswordTest')
+data.setCell(6, 2, 'com.hAIbooks.qa.TestPages.TestBusinessOwner')
+data.setCell(6, 3, 968);
+data.setCell(7, 0, 7)
+data.setCell(7, 1, 'CharacterLimitationFirstNameTest')
+data.setCell(7, 2, 'com.hAIbooks.qa.TestPages.TestBusinessOwner')
+data.setCell(7, 3, 443);
+data.setCell(8, 0, 8)
+data.setCell(8, 1, 'CharacterLimitationLastNameTest')
+data.setCell(8, 2, 'com.hAIbooks.qa.TestPages.TestBusinessOwner')
+data.setCell(8, 3, 351);
+data.setCell(9, 0, 9)
+data.setCell(9, 1, 'MinimumCharacterValidationPassworsTest')
+data.setCell(9, 2, 'com.hAIbooks.qa.TestPages.TestBusinessOwner')
+data.setCell(9, 3, 278);
+data.setCell(10, 0, 10)
+data.setCell(10, 1, 'PhoneNumberValidationTest')
+data.setCell(10, 2, 'com.hAIbooks.qa.TestPages.TestBusinessOwner')
+data.setCell(10, 3, 230);
+data.setCell(11, 0, 11)
+data.setCell(11, 1, 'ReClickNextButtonTest')
+data.setCell(11, 2, 'com.hAIbooks.qa.TestPages.TestBusinessOwner')
+data.setCell(11, 3, 87);
+data.setCell(12, 0, 12)
+data.setCell(12, 1, 'ClickBusinessOwnerTest')
+data.setCell(12, 2, 'com.hAIbooks.qa.TestPages.TestBusinessOwner')
+data.setCell(12, 3, 82);
+data.setCell(13, 0, 13)
+data.setCell(13, 1, 'ClickGetStartedTest')
+data.setCell(13, 2, 'com.hAIbooks.qa.TestPages.TestBusinessOwner')
+data.setCell(13, 3, 80);
+data.setCell(14, 0, 14)
+data.setCell(14, 1, 'ErrorMessageFirstNameTest')
+data.setCell(14, 2, 'com.hAIbooks.qa.TestPages.TestBusinessOwner')
+data.setCell(14, 3, 59);
+data.setCell(15, 0, 15)
+data.setCell(15, 1, 'ErrorConfirmPasswordTest')
+data.setCell(15, 2, 'com.hAIbooks.qa.TestPages.TestBusinessOwner')
+data.setCell(15, 3, 56);
+data.setCell(16, 0, 16)
+data.setCell(16, 1, 'ErrorMessagePhoneNumTest')
+data.setCell(16, 2, 'com.hAIbooks.qa.TestPages.TestBusinessOwner')
+data.setCell(16, 3, 51);
+data.setCell(17, 0, 17)
+data.setCell(17, 1, 'ErrorMessageLastNameTest')
+data.setCell(17, 2, 'com.hAIbooks.qa.TestPages.TestBusinessOwner')
+data.setCell(17, 3, 44);
+data.setCell(18, 0, 18)
+data.setCell(18, 1, 'ToverifyTextIsPresentTest')
+data.setCell(18, 2, 'com.hAIbooks.qa.TestPages.TestBusinessOwner')
+data.setCell(18, 3, 42);
+data.setCell(19, 0, 19)
+data.setCell(19, 1, 'ErrorMessageEmailIDTest')
+data.setCell(19, 2, 'com.hAIbooks.qa.TestPages.TestBusinessOwner')
+data.setCell(19, 3, 39);
+data.setCell(20, 0, 20)
+data.setCell(20, 1, 'ToVerifyColorOfNextButtonTest')
+data.setCell(20, 2, 'com.hAIbooks.qa.TestPages.TestBusinessOwner')
+data.setCell(20, 3, 38);
+data.setCell(21, 0, 21)
+data.setCell(21, 1, 'ErrorCreatePasswordTest')
+data.setCell(21, 2, 'com.hAIbooks.qa.TestPages.TestBusinessOwner')
+data.setCell(21, 3, 34);
+window.suiteTableData['Default_suite']= { tableData: data, tableDiv: 'times-div-Default_suite'}
+return data;
+}
+              </script>
+              <span class="suite-total-time">Total running time: 34 seconds</span>
+              <div id="times-div-Default_suite">
+              </div> <!-- times-div-Default_suite -->
+            </div> <!-- times-div -->
+          </div> <!-- main-panel-content rounded-window-bottom -->
+        </div> <!-- panel -->
+        <div panel-name="reporter-Default_suite" class="panel">
+          <div class="main-panel-header rounded-window-top">
+            <span class="header-content">Reporter output for Default suite</span>
+          </div> <!-- main-panel-header rounded-window-top -->
+          <div class="main-panel-content rounded-window-bottom">
+          </div> <!-- main-panel-content rounded-window-bottom -->
+        </div> <!-- panel -->
+        <div panel-name="ignored-methods-Default_suite" class="panel">
+          <div class="main-panel-header rounded-window-top">
+            <span class="header-content">0 ignored methods</span>
+          </div> <!-- main-panel-header rounded-window-top -->
+          <div class="main-panel-content rounded-window-bottom">
+          </div> <!-- main-panel-content rounded-window-bottom -->
+        </div> <!-- panel -->
+        <div panel-name="chronological-Default_suite" class="panel">
+          <div class="main-panel-header rounded-window-top">
+            <span class="header-content">Methods in chronological order</span>
+          </div> <!-- main-panel-header rounded-window-top -->
+          <div class="main-panel-content rounded-window-bottom">
+            <div class="chronological-class">
+              <div class="chronological-class-name">com.hAIbooks.qa.TestPages.TestBusinessOwner</div> <!-- chronological-class-name -->
+              <div class="configuration-class before">
+                <span class="method-name">SetUp</span>
+                <span class="method-start">0 ms</span>
+              </div> <!-- configuration-class before -->
+              <div class="configuration-method before">
+                <span class="method-name">beforeMethod(public void com.hAIbooks.qa.TestPages.TestBusinessOwner.ClcikSignUp() throws java.lang.InterruptedEx...)</span>
+                <span class="method-start">7749 ms</span>
+              </div> <!-- configuration-method before -->
+              <div class="test-method">
+                <span class="method-name">ClcikSignUp</span>
+                <span class="method-start">7759 ms</span>
+              </div> <!-- test-method -->
+              <div class="configuration-method after">
+                <span class="method-name">afterMethod([TestResult name=ClcikSignUp status=SUCCESS method=TestBusinessOwner.ClcikSignUp()[pri:1, instance:c...)</span>
+                <span class="method-start">8937 ms</span>
+              </div> <!-- configuration-method after -->
+              <div class="configuration-method before">
+                <span class="method-name">beforeMethod(public void com.hAIbooks.qa.TestPages.TestBusinessOwner.ColorNextButtonTest() throws java.lang.Inter...)</span>
+                <span class="method-start">8939 ms</span>
+              </div> <!-- configuration-method before -->
+              <div class="test-method">
+                <span class="method-name">ColorNextButtonTest</span>
+                <span class="method-start">8940 ms</span>
+              </div> <!-- test-method -->
+              <div class="configuration-method after">
+                <span class="method-name">afterMethod([TestResult name=ColorNextButtonTest status=SUCCESS method=TestBusinessOwner.ColorNextButtonTest()[p...)</span>
+                <span class="method-start">19006 ms</span>
+              </div> <!-- configuration-method after -->
+              <div class="configuration-method before">
+                <span class="method-name">beforeMethod(public void com.hAIbooks.qa.TestPages.TestBusinessOwner.ClcikNextButtonTest() throws java.lang.Excep...)</span>
+                <span class="method-start">19007 ms</span>
+              </div> <!-- configuration-method before -->
+              <div class="test-method">
+                <span class="method-name">ClcikNextButtonTest</span>
+                <span class="method-start">19007 ms</span>
+              </div> <!-- test-method -->
+              <div class="configuration-method after">
+                <span class="method-name">afterMethod([TestResult name=ClcikNextButtonTest status=SUCCESS method=TestBusinessOwner.ClcikNextButtonTest()[p...)</span>
+                <span class="method-start">24099 ms</span>
+              </div> <!-- configuration-method after -->
+              <div class="configuration-method before">
+                <span class="method-name">beforeMethod(public void com.hAIbooks.qa.TestPages.TestBusinessOwner.ToverifyContentTest() throws java.lang.Inter...)</span>
+                <span class="method-start">24104 ms</span>
+              </div> <!-- configuration-method before -->
+              <div class="test-method">
+                <span class="method-name">ToverifyContentTest</span>
+                <span class="method-start">24105 ms</span>
+              </div> <!-- test-method -->
+              <div class="configuration-method after">
+                <span class="method-name">afterMethod([TestResult name=ToverifyContentTest status=SUCCESS method=TestBusinessOwner.ToverifyContentTest()[p...)</span>
+                <span class="method-start">29164 ms</span>
+              </div> <!-- configuration-method after -->
+              <div class="configuration-method before">
+                <span class="method-name">beforeMethod(public void com.hAIbooks.qa.TestPages.TestBusinessOwner.ToverifyTextIsPresentTest())</span>
+                <span class="method-start">29168 ms</span>
+              </div> <!-- configuration-method before -->
+              <div class="test-method">
+                <span class="method-name">ToverifyTextIsPresentTest</span>
+                <span class="method-start">29169 ms</span>
+              </div> <!-- test-method -->
+              <div class="configuration-method after">
+                <span class="method-name">afterMethod([TestResult name=ToverifyTextIsPresentTest status=SUCCESS method=TestBusinessOwner.ToverifyTextIsPre...)</span>
+                <span class="method-start">29211 ms</span>
+              </div> <!-- configuration-method after -->
+              <div class="configuration-method before">
+                <span class="method-name">beforeMethod(public void com.hAIbooks.qa.TestPages.TestBusinessOwner.ClickBusinessOwnerTest())</span>
+                <span class="method-start">29212 ms</span>
+              </div> <!-- configuration-method before -->
+              <div class="test-method">
+                <span class="method-name">ClickBusinessOwnerTest</span>
+                <span class="method-start">29212 ms</span>
+              </div> <!-- test-method -->
+              <div class="configuration-method after">
+                <span class="method-name">afterMethod([TestResult name=ClickBusinessOwnerTest status=SUCCESS method=TestBusinessOwner.ClickBusinessOwnerTe...)</span>
+                <span class="method-start">29295 ms</span>
+              </div> <!-- configuration-method after -->
+              <div class="configuration-method before">
+                <span class="method-name">beforeMethod(public void com.hAIbooks.qa.TestPages.TestBusinessOwner.ToVerifyColorOfNextButtonTest())</span>
+                <span class="method-start">29296 ms</span>
+              </div> <!-- configuration-method before -->
+              <div class="test-method">
+                <span class="method-name">ToVerifyColorOfNextButtonTest</span>
+                <span class="method-start">29296 ms</span>
+              </div> <!-- test-method -->
+              <div class="configuration-method after">
+                <span class="method-name">afterMethod([TestResult name=ToVerifyColorOfNextButtonTest status=SUCCESS method=TestBusinessOwner.ToVerifyColor...)</span>
+                <span class="method-start">29335 ms</span>
+              </div> <!-- configuration-method after -->
+              <div class="configuration-method before">
+                <span class="method-name">beforeMethod(public void com.hAIbooks.qa.TestPages.TestBusinessOwner.ToReVerifyTextIsPresent() throws java.lang.I...)</span>
+                <span class="method-start">29337 ms</span>
+              </div> <!-- configuration-method before -->
+              <div class="test-method">
+                <span class="method-name">ToReVerifyTextIsPresent</span>
+                <span class="method-start">29337 ms</span>
+              </div> <!-- test-method -->
+              <div class="configuration-method after">
+                <span class="method-name">afterMethod([TestResult name=ToReVerifyTextIsPresent status=SUCCESS method=TestBusinessOwner.ToReVerifyTextIsPre...)</span>
+                <span class="method-start">34364 ms</span>
+              </div> <!-- configuration-method after -->
+              <div class="configuration-method before">
+                <span class="method-name">beforeMethod(public void com.hAIbooks.qa.TestPages.TestBusinessOwner.ReClickNextButtonTest())</span>
+                <span class="method-start">34367 ms</span>
+              </div> <!-- configuration-method before -->
+              <div class="test-method">
+                <span class="method-name">ReClickNextButtonTest</span>
+                <span class="method-start">34368 ms</span>
+              </div> <!-- test-method -->
+              <div class="configuration-method after">
+                <span class="method-name">afterMethod([TestResult name=ReClickNextButtonTest status=SUCCESS method=TestBusinessOwner.ReClickNextButtonTest...)</span>
+                <span class="method-start">34456 ms</span>
+              </div> <!-- configuration-method after -->
+              <div class="configuration-method before">
+                <span class="method-name">beforeMethod(public void com.hAIbooks.qa.TestPages.TestBusinessOwner.PhoneNumberValidationTest())</span>
+                <span class="method-start">34457 ms</span>
+              </div> <!-- configuration-method before -->
+              <div class="test-method">
+                <span class="method-name">PhoneNumberValidationTest</span>
+                <span class="method-start">34457 ms</span>
+              </div> <!-- test-method -->
+              <div class="configuration-method after">
+                <span class="method-name">afterMethod([TestResult name=PhoneNumberValidationTest status=SUCCESS method=TestBusinessOwner.PhoneNumberValida...)</span>
+                <span class="method-start">34687 ms</span>
+              </div> <!-- configuration-method after -->
+              <div class="configuration-method before">
+                <span class="method-name">beforeMethod(public void com.hAIbooks.qa.TestPages.TestBusinessOwner.MinimumCharacterValidationPassworsTest())</span>
+                <span class="method-start">34688 ms</span>
+              </div> <!-- configuration-method before -->
+              <div class="test-method">
+                <span class="method-name">MinimumCharacterValidationPassworsTest</span>
+                <span class="method-start">34689 ms</span>
+              </div> <!-- test-method -->
+              <div class="configuration-method after">
+                <span class="method-name">afterMethod([TestResult name=MinimumCharacterValidationPassworsTest status=SUCCESS method=TestBusinessOwner.Mini...)</span>
+                <span class="method-start">34968 ms</span>
+              </div> <!-- configuration-method after -->
+              <div class="configuration-method before">
+                <span class="method-name">beforeMethod(public void com.hAIbooks.qa.TestPages.TestBusinessOwner.MaximumCharacterValidationPaaswordTest())</span>
+                <span class="method-start">34969 ms</span>
+              </div> <!-- configuration-method before -->
+              <div class="test-method">
+                <span class="method-name">MaximumCharacterValidationPaaswordTest</span>
+                <span class="method-start">34969 ms</span>
+              </div> <!-- test-method -->
+              <div class="configuration-method after">
+                <span class="method-name">afterMethod([TestResult name=MaximumCharacterValidationPaaswordTest status=SUCCESS method=TestBusinessOwner.Maxi...)</span>
+                <span class="method-start">35938 ms</span>
+              </div> <!-- configuration-method after -->
+              <div class="configuration-method before">
+                <span class="method-name">beforeMethod(public void com.hAIbooks.qa.TestPages.TestBusinessOwner.CharacterLimitationFirstNameTest())</span>
+                <span class="method-start">35939 ms</span>
+              </div> <!-- configuration-method before -->
+              <div class="test-method">
+                <span class="method-name">CharacterLimitationFirstNameTest</span>
+                <span class="method-start">35939 ms</span>
+              </div> <!-- test-method -->
+              <div class="configuration-method after">
+                <span class="method-name">afterMethod([TestResult name=CharacterLimitationFirstNameTest status=SUCCESS method=TestBusinessOwner.CharacterL...)</span>
+                <span class="method-start">36383 ms</span>
+              </div> <!-- configuration-method after -->
+              <div class="configuration-method before">
+                <span class="method-name">beforeMethod(public void com.hAIbooks.qa.TestPages.TestBusinessOwner.CharacterLimitationLastNameTest())</span>
+                <span class="method-start">36384 ms</span>
+              </div> <!-- configuration-method before -->
+              <div class="test-method">
+                <span class="method-name">CharacterLimitationLastNameTest</span>
+                <span class="method-start">36384 ms</span>
+              </div> <!-- test-method -->
+              <div class="configuration-method after">
+                <span class="method-name">afterMethod([TestResult name=CharacterLimitationLastNameTest status=SUCCESS method=TestBusinessOwner.CharacterLi...)</span>
+                <span class="method-start">36735 ms</span>
+              </div> <!-- configuration-method after -->
+              <div class="configuration-method before">
+                <span class="method-name">beforeMethod(public void com.hAIbooks.qa.TestPages.TestBusinessOwner.ClearSignUpPageTest() throws java.lang.Inter...)</span>
+                <span class="method-start">36736 ms</span>
+              </div> <!-- configuration-method before -->
+              <div class="test-method">
+                <span class="method-name">ClearSignUpPageTest</span>
+                <span class="method-start">36736 ms</span>
+              </div> <!-- test-method -->
+              <div class="configuration-method after">
+                <span class="method-name">afterMethod([TestResult name=ClearSignUpPageTest status=SUCCESS method=TestBusinessOwner.ClearSignUpPageTest()[p...)</span>
+                <span class="method-start">41932 ms</span>
+              </div> <!-- configuration-method after -->
+              <div class="configuration-method before">
+                <span class="method-name">beforeMethod(public void com.hAIbooks.qa.TestPages.TestBusinessOwner.ClickGetStartedTest())</span>
+                <span class="method-start">41933 ms</span>
+              </div> <!-- configuration-method before -->
+              <div class="test-method">
+                <span class="method-name">ClickGetStartedTest</span>
+                <span class="method-start">41934 ms</span>
+              </div> <!-- test-method -->
+              <div class="configuration-method after">
+                <span class="method-name">afterMethod([TestResult name=ClickGetStartedTest status=SUCCESS method=TestBusinessOwner.ClickGetStartedTest()[p...)</span>
+                <span class="method-start">42015 ms</span>
+              </div> <!-- configuration-method after -->
+              <div class="configuration-method before">
+                <span class="method-name">beforeMethod(public void com.hAIbooks.qa.TestPages.TestBusinessOwner.ErrorMessageFirstNameTest())</span>
+                <span class="method-start">42016 ms</span>
+              </div> <!-- configuration-method before -->
+              <div class="test-method">
+                <span class="method-name">ErrorMessageFirstNameTest</span>
+                <span class="method-start">42016 ms</span>
+              </div> <!-- test-method -->
+              <div class="configuration-method after">
+                <span class="method-name">afterMethod([TestResult name=ErrorMessageFirstNameTest status=SUCCESS method=TestBusinessOwner.ErrorMessageFirst...)</span>
+                <span class="method-start">42076 ms</span>
+              </div> <!-- configuration-method after -->
+              <div class="configuration-method before">
+                <span class="method-name">beforeMethod(public void com.hAIbooks.qa.TestPages.TestBusinessOwner.ErrorMessageLastNameTest())</span>
+                <span class="method-start">42076 ms</span>
+              </div> <!-- configuration-method before -->
+              <div class="test-method">
+                <span class="method-name">ErrorMessageLastNameTest</span>
+                <span class="method-start">42077 ms</span>
+              </div> <!-- test-method -->
+              <div class="configuration-method after">
+                <span class="method-name">afterMethod([TestResult name=ErrorMessageLastNameTest status=SUCCESS method=TestBusinessOwner.ErrorMessageLastNa...)</span>
+                <span class="method-start">42122 ms</span>
+              </div> <!-- configuration-method after -->
+              <div class="configuration-method before">
+                <span class="method-name">beforeMethod(public void com.hAIbooks.qa.TestPages.TestBusinessOwner.ErrorMessageEmailIDTest())</span>
+                <span class="method-start">42122 ms</span>
+              </div> <!-- configuration-method before -->
+              <div class="test-method">
+                <span class="method-name">ErrorMessageEmailIDTest</span>
+                <span class="method-start">42123 ms</span>
+              </div> <!-- test-method -->
+              <div class="configuration-method after">
+                <span class="method-name">afterMethod([TestResult name=ErrorMessageEmailIDTest status=SUCCESS method=TestBusinessOwner.ErrorMessageEmailID...)</span>
+                <span class="method-start">42163 ms</span>
+              </div> <!-- configuration-method after -->
+              <div class="configuration-method before">
+                <span class="method-name">beforeMethod(public void com.hAIbooks.qa.TestPages.TestBusinessOwner.ErrorMessagePhoneNumTest())</span>
+                <span class="method-start">42163 ms</span>
+              </div> <!-- configuration-method before -->
+              <div class="test-method">
+                <span class="method-name">ErrorMessagePhoneNumTest</span>
+                <span class="method-start">42164 ms</span>
+              </div> <!-- test-method -->
+              <div class="configuration-method after">
+                <span class="method-name">afterMethod([TestResult name=ErrorMessagePhoneNumTest status=SUCCESS method=TestBusinessOwner.ErrorMessagePhoneN...)</span>
+                <span class="method-start">42215 ms</span>
+              </div> <!-- configuration-method after -->
+              <div class="configuration-method before">
+                <span class="method-name">beforeMethod(public void com.hAIbooks.qa.TestPages.TestBusinessOwner.ErrorCreatePasswordTest())</span>
+                <span class="method-start">42216 ms</span>
+              </div> <!-- configuration-method before -->
+              <div class="test-method">
+                <span class="method-name">ErrorCreatePasswordTest</span>
+                <span class="method-start">42217 ms</span>
+              </div> <!-- test-method -->
+              <div class="configuration-method after">
+                <span class="method-name">afterMethod([TestResult name=ErrorCreatePasswordTest status=SUCCESS method=TestBusinessOwner.ErrorCreatePassword...)</span>
+                <span class="method-start">42252 ms</span>
+              </div> <!-- configuration-method after -->
+              <div class="configuration-method before">
+                <span class="method-name">beforeMethod(public void com.hAIbooks.qa.TestPages.TestBusinessOwner.ErrorConfirmPasswordTest())</span>
+                <span class="method-start">42252 ms</span>
+              </div> <!-- configuration-method before -->
+              <div class="test-method">
+                <span class="method-name">ErrorConfirmPasswordTest</span>
+                <span class="method-start">42253 ms</span>
+              </div> <!-- test-method -->
+              <div class="configuration-method after">
+                <span class="method-name">afterMethod([TestResult name=ErrorConfirmPasswordTest status=SUCCESS method=TestBusinessOwner.ErrorConfirmPasswo...)</span>
+                <span class="method-start">42309 ms</span>
+              </div> <!-- configuration-method after -->
+              <div class="configuration-class after">
+                <span class="method-name">TearDown</span>
+                <span class="method-start">42310 ms</span>
+              </div> <!-- configuration-class after -->
+              <div class="configuration-class after">
+                <span class="method-name">endTest</span>
+                <span class="method-start">43098 ms</span>
+              </div> <!-- configuration-class after -->
+          </div> <!-- main-panel-content rounded-window-bottom -->
+        </div> <!-- panel -->
+      </div> <!-- main-panel-root -->
+    </div> <!-- wrapper -->
+  </body>
+</html>

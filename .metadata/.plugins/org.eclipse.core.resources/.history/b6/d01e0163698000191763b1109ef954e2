@@ -1,0 +1,13 @@
+<!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd" >
+  
+<suite name="OwnerSuite" verbose="1" >
+  <test name="OwnerTests" >
+    <classes>
+       <class name="com.hAIbooks.qa.TestPages.TestBusinessOwner" />
+       <class name="com.hAIbooks.qa.TestPages.TestRegBusinessOwner"/>
+       <class name="com.hAIbooks.qa.TestPages.TestLoginPage"/>
+       <class name="com.hAIbooks.qa.TestPages.TestAlreadyCreateBusiness"/>
+       <class name="com.hAIbooks.qa.TestPages.TestForgotPassword"/>
+    </classes>
+  </test>
+</suite>

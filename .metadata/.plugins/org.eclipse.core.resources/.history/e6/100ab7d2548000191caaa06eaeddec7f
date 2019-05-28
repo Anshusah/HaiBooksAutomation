@@ -1,0 +1,198 @@
+package com.hAIbooks.qa.TestPages;
+
+import java.io.IOException;
+
+import org.testng.Assert;
+import org.testng.annotations.AfterClass;
+import org.testng.annotations.BeforeClass;
+import org.testng.annotations.Test;
+
+import com.hAIbooks.qa.Base.TestBase;
+import com.hAIbooks.qa.Calendar.CalendarHandling;
+import com.hAIbooks.qa.CheckBox.SelectCheckBox;
+import com.hAIbooks.qa.DropDownHandling.DropDownHandling;
+import com.hAIbooks.qa.ExcelReader.ExcelReader;
+import com.hAIbooks.qa.Pages.CreatingBusiness;
+import com.hAIbooks.qa.Times.TestUtils;
+
+public class TestCreatingBusiness extends TestBase
+{
+
+	public TestCreatingBusiness() throws IOException 
+	{
+		super();
+		
+	}
+	SelectCheckBox checkbox;
+
+	CalendarHandling calendar;
+	DropDownHandling dd;
+	CreatingBusiness business;
+	ExcelReader excel;
+	String ExcelPath=System.getProperty("user.dir")+"/TestData/BusinessOwner.xlsx";
+	
+	@BeforeClass
+	public void setUp() throws IOException
+	{
+		Intilization();
+		business=new CreatingBusiness();
+		excel=new ExcelReader(ExcelPath);
+		dd=new DropDownHandling();
+		calendar= new CalendarHandling();
+		checkbox= new SelectCheckBox();
+		
+		
+	}
+	
+	@Test(priority=1)
+	public void getLogin() throws InterruptedException
+	{
+		String Username=excel.getCellData(0, 1, "EmailAddress");
+		String Password=excel.getCellData(0, 1, "Password");
+		business.userLoginPannel(Username, Password);
+	}
+	
+	@Test(priority=2)
+	public void canVerifyContentOne()
+	{
+		String actualOutput=business.canVerifyContentOne();
+		String expectedOutput="Let’s start!";
+		Assert.assertEquals(actualOutput, expectedOutput, "Actual and Expected outputs did not matched");
+	}
+	
+	@Test(priority=3)
+	public void canVerifyContentTwo()
+	{
+		String actualOutput=business.canVerifyContentTwo();
+		String expectedOutput="Add a business";
+		Assert.assertEquals(actualOutput, expectedOutput, "Actual and Expected outputs did not matched");
+	}
+	
+	/*@Test(priority=4)
+	public void canVerifyContentThree()
+	{
+		String actualOutput=business.canVerifyContentTwo();
+		String expectedOutput="Please tell us about your business";
+		Assert.assertEquals(actualOutput, expectedOutput, "Actual and Expected outputs did not matched");
+	}*/
+	
+	@Test(priority=5)
+	public void clickSelectBusinesDropDown() throws InterruptedException
+	{
+		business.selectBusinessType();
+		String Xpathvalue=OR.getProperty("xpathOfBusinessType");
+		System.out.println(Xpathvalue);
+		String dropDownValue=excel.getCellData(1, 1, "ROle");
+		dd.HandlingDropDown(Xpathvalue, dropDownValue);
+	}
+	
+	/*@Test(priority=6)
+	public void clickGetStarted()
+	{
+		business.clickGetStarted();
+	}
+	
+	@Test(priority=7)
+	public void validationMessageBusinessName()
+	{
+		String actualOutput=business.validationMessageBusinessName();
+		String expectedOutput="Please enter Business Name";
+		Assert.assertEquals(actualOutput, expectedOutput, "Actual and Expected outputs did not matched");
+	}
+	
+	@Test(priority=8)
+	public void validationBusinessStartDate()
+	{
+		String actualOutput=business.validationMessageBusinessName();
+		String expectedOutput="Please enter Business Start Date";
+		Assert.assertEquals(actualOutput, expectedOutput, "Actual and Expected outputs did not matched");
+	}
+	
+	@Test(priority=9)
+	public void validationFinancialYearEnd()
+	{
+		String actualOutput=business.validationMessageBusinessName();
+		String expectedOutput="Please enter Financial Year End";
+		Assert.assertEquals(actualOutput, expectedOutput, "Actual and Expected outputs did not matched");
+	}*/
+	
+	/*@Test(priority=10)
+	public void addBusinessName()
+	{
+		String businessName=excel.getCellData(1, 1, "BusinessName");
+		business.createBusinessName(businessName);
+	}*/
+	
+	@Test(priority=11)
+	public void addAccountDate() throws InterruptedException
+	{
+		business.clickaccountFormCalendarIcon();
+		
+		String excelMonth=excel.getCellData(1, 1, "BusinessMonth");
+		System.out.println("Business Month="+excelMonth);
+		String excelDate=excel.getCellData(1, 1, "BusinessDate");
+		String excelYear=excel.getCellData(1, 1, "BusinessYear");
+		
+		calendar.handlingMonth(excelMonth, excelYear, excelDate);	
+	}
+	
+	/*@Test(priority=12)
+	public void addAccountMadeUpDate()
+	{
+		business.clickAccountMadeCalendarIcon();
+		
+		String excelDate=excel.getCellData(1, 1, "FinancialDate");
+		String excelMonth=excel.getCellData(1, 1, "FinancialMonth");
+		String excelYear=excel.getCellData(1, 1, "FinancialYear");
+		
+		calendar.handlingMonth(excelMonth, excelYear, excelDate);
+	}
+	
+	@Test(priority=13)
+	public void BuildingNumStreet()
+	{
+		String buildingNum=excel.getCellData(1, 1, "BuildingNumber");
+		String street=excel.getCellData(1, 1, "Street");
+		business.BuildingNumStreet(buildingNum, street);
+	}
+	
+	@Test(priority=14)
+	public void GetCityRegion()
+	{
+		String city=excel.getCellData(1, 1, "City");
+		String region=excel.getCellData(1, 1, "Region");
+		business.GetCityRegion(city, region);
+		
+	}
+	
+	@Test(priority=15)
+	public void getPostCodeCountry()
+	{
+		String postcode=excel.getCellData(1, 1, "PostCode");
+		String country=excel.getCellData(1, 1, "Country");
+		business.getPostCodeCountry(postcode, country);
+		
+	}
+	
+	@Test(priority=16)
+	public void clickIndustry() throws InterruptedException
+	{
+		String industry=excel.getCellData(1, 1, "Industry");
+		business.clickIndustry(industry);
+	}
+	
+	@Test(priority=17)
+	public void getVatNumber() throws InterruptedException
+	{
+		business.submitButton();
+		Thread.sleep(TestUtils.Thread_sleep);
+		
+	}
+	
+	@AfterClass
+	public void closeBrowser()
+	{
+		driver.quit();
+	}*/
+
+}

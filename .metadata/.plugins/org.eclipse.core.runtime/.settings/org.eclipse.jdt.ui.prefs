@@ -1,0 +1,21 @@
+content_assist_disabled_computers=org.eclipse.jdt.ui.textProposalCategory\u0000org.eclipse.recommenders.calls.rcp.proposalCategory.templates\u0000org.eclipse.mylyn.java.ui.javaAllProposalCategory\u0000org.eclipse.jdt.ui.javaAllProposalCategory\u0000org.eclipse.jdt.ui.javaTypeProposalCategory\u0000org.eclipse.jdt.ui.javaNoTypeProposalCategory\u0000org.eclipse.recommenders.chain.rcp.proposalCategory.chain\u0000
+content_assist_favorite_static_members=org.testng.Assert.*
+content_assist_lru_history=<?xml version\="1.0" encoding\="UTF-8" standalone\="no"?><history maxLHS\="100" maxRHS\="10"><lhs name\="com.hAIbooks.qa.Base.TestBase"><rhs name\="com.hAIbooks.qa.Pages.CreatingBusiness"/><rhs name\="com.hAIbooks.qa.DropDownHandling.DropDownHandling"/><rhs name\="com.hAIbooks.qa.Calendar.SelectCalendar"/><rhs name\="com.hAIbooks.qa.Calendar.CalendarHandling"/><rhs name\="com.hAIbooks.qa.CheckBox.SelectCheckBox"/><rhs name\="com.hAIbooks.qa.Pages.ForgotPassword"/><rhs name\="com.hAIbooks.qa.Screenshots.ScreenShot"/><rhs name\="com.hAIbooks.qa.SwitchingTab.SwitchTab"/><rhs name\="com.hAIbooks.qa.NewTab.CreatingNewTab"/><rhs name\="com.hAIbooks.qa.Pages.LoginPage"/></lhs><lhs name\="com.hAIbooks.qa.Pages.RegBusinessAdvisor"><rhs name\="com.hAIbooks.qa.Pages.RegBusinessAdvisor"/></lhs><lhs name\="com.hAIbooks.qa.Pages.BusinessAdvisor"><rhs name\="com.hAIbooks.qa.Pages.BusinessAdvisor"/></lhs><lhs name\="com.hAIbooks.qa.Pages.BusinessOwner"><rhs name\="com.hAIbooks.qa.Pages.BusinessOwner"/></lhs><lhs name\="com.hAIbooks.qa.EmailVerification.EmailVerification"><rhs name\="com.hAIbooks.qa.EmailVerification.EmailVerification"/></lhs><lhs name\="com.hAIbooks.qa.Screenshots.ScreenShot"><rhs name\="com.hAIbooks.qa.Screenshots.ScreenShot"/></lhs><lhs name\="java.lang.CharSequence"><rhs name\="org.openqa.selenium.Keys"/></lhs><lhs name\="com.hAIbooks.qa.Pages.LoginPage"><rhs name\="com.hAIbooks.qa.Pages.LoginPage"/></lhs><lhs name\="com.hAIbooks.qa.ExcelReader.ExcelReader"><rhs name\="com.hAIbooks.qa.ExcelReader.ExcelReader"/></lhs><lhs name\="com.hAIbooks.qa.Pages.RegBusinessOwner"><rhs name\="com.hAIbooks.qa.Pages.RegBusinessOwner"/></lhs><lhs name\="com.hAIbooks.qa.Pages.CreatingBusiness"><rhs name\="com.hAIbooks.qa.Pages.CreatingBusiness"/></lhs><lhs name\="com.hAIbooks.qa.DropDownHandling.DropDownHandling"><rhs name\="com.hAIbooks.qa.DropDownHandling.DropDownHandling"/></lhs><lhs name\="com.hAIbooks.qa.Calendar.SelectCalendar"><rhs name\="com.hAIbooks.qa.Calendar.SelectCalendar"/></lhs><lhs name\="com.hAIbooks.qa.Calendar.CalendarHandling"><rhs name\="com.hAIbooks.qa.Calendar.CalendarHandling"/></lhs><lhs name\="com.hAIbooks.qa.CheckBox.SelectCheckBox"><rhs name\="com.hAIbooks.qa.CheckBox.SelectCheckBox"/></lhs><lhs name\="com.hAIbooks.qa.Pages.ForgotPassword"><rhs name\="com.hAIbooks.qa.Pages.ForgotPassword"/></lhs><lhs name\="com.hAIbooks.qa.NewTab.CreatingNewTab"><rhs name\="com.hAIbooks.qa.NewTab.CreatingNewTab"/></lhs><lhs name\="com.hAIbooks.qa.Sikuli.Sikuli"><rhs name\="com.hAIbooks.qa.Sikuli.Sikuli"/></lhs><lhs name\="com.hAIbooks.qa.SwitchingTab.SwitchTab"><rhs name\="com.hAIbooks.qa.SwitchingTab.SwitchTab"/></lhs></history>
+content_assist_number_of_computers=19
+content_assist_proposals_background=255,255,255
+content_assist_proposals_foreground=0,0,0
+eclipse.preferences.version=1
+fontPropagated=true
+org.eclipse.jdt.ui.editor.tab.width=
+org.eclipse.jdt.ui.formatterprofiles.version=12
+org.eclipse.jdt.ui.javadoclocations.migrated=true
+org.eclipse.jdt.ui.text.code_templates_migrated=true
+org.eclipse.jdt.ui.text.custom_code_templates=<?xml version\="1.0" encoding\="UTF-8" standalone\="no"?><templates/>
+org.eclipse.jdt.ui.text.custom_templates=<?xml version\="1.0" encoding\="UTF-8" standalone\="no"?><templates/>
+org.eclipse.jdt.ui.text.templates_migrated=true
+org.eclipse.jface.textfont=1|Courier New|10.0|0|WINDOWS|1|0|0|0|0|0|0|0|0|1|0|0|0|0|Courier New;
+proposalOrderMigrated=true
+spelling_locale_initialized=true
+tabWidthPropagated=true
+useAnnotationsPrefPage=true
+useQuickDiffPrefPage=true

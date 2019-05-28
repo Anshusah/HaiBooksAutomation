@@ -1,0 +1,88 @@
+package com.hAIbooks.qa.Calendar;
+
+import java.io.IOException;
+import java.util.List;
+
+import org.openqa.selenium.By;
+import org.openqa.selenium.JavascriptExecutor;
+import org.openqa.selenium.WebElement;
+import org.openqa.selenium.support.FindBy;
+import org.openqa.selenium.support.FindBys;
+import org.openqa.selenium.support.PageFactory;
+
+import com.hAIbooks.qa.Base.TestBase;
+import com.hAIbooks.qa.Times.TestUtils;
+
+public class CalendarHandling extends TestBase
+{
+
+	public CalendarHandling() throws IOException 
+	{
+		PageFactory.initElements(driver, this);	
+	}
+	
+	public void ClcikMonth(String xpath_monthSelection, String xpath_monthList, String businessMonth) throws InterruptedException
+	{
+		driver.findElement(By.xpath(xpath_monthSelection)).click();
+		Thread.sleep(TestUtils.PAGE_LOAD_TIMEOUT);
+		List <WebElement> months=driver.findElements(By.xpath(xpath_monthList));
+		
+		for(WebElement mThs:months)
+		{
+			String totalMonths=mThs.getAttribute("innerHTML");
+			if(totalMonths.contentEquals(businessMonth))
+			{
+				mThs.click();
+				break;
+			}
+		}
+		
+				
+		Thread.sleep(TestUtils.PAGE_LOAD_TIMEOUT);
+
+	}
+	
+	public void ClcikYear(String XpathYearSelection, String XpathYearList, String ExcelYear) throws InterruptedException
+	{
+		driver.findElement(By.xpath(XpathYearSelection)).click();
+		Thread.sleep(TestUtils.PAGE_LOAD_TIMEOUT);
+		List<WebElement> years=driver.findElements(By.xpath(XpathYearList));
+		
+		for(WebElement yRs:years)
+		{
+			String selectedYear=yRs.getAttribute("innerHTML");
+				
+			if(selectedYear.contentEquals(ExcelYear))
+			{
+				yRs.click();
+				break;
+				
+			}
+		}
+		
+	}
+	
+	public void ClickDate(String XpathDate, String Exceldate)
+	{
+		List<WebElement> date=driver.findElements(By.xpath(XpathDate));
+		
+		int totalNodes=date.size();
+		System.out.println("Size="+totalNodes);
+		for(int i=0;i<=totalNodes;i++)
+		{
+			String dates=date.get(i).getText();
+			if(dates.equals(Exceldate))
+				date.get(i).click();
+		}
+		
+	}
+	
+	
+	
+	
+	
+}
+	
+	
+
+
