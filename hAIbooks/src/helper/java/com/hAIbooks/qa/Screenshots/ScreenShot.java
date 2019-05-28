@@ -28,7 +28,7 @@ public class ScreenShot extends TestBase
 		
 		
 		File image=((TakesScreenshot)driver).getScreenshotAs(OutputType.FILE);
-		String ImageLocation=(System.getProperty("user.dir")+"/Screenshot/");
+		String ImageLocation=(System.getProperty("user.dir")+"/Screenshots/");
 		Calendar calendar= Calendar.getInstance();
 		SimpleDateFormat formater=new SimpleDateFormat("dd_MM_yyyy_hh_mm_ss");
 		String actualImageName=ImageLocation+ImageName+"_"+formater.format(calendar.getTime())+".png";
